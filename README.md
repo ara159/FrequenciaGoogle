@@ -1,7 +1,7 @@
 # FrequenciaGoogle
 Verificador as palavras mais comuns entre vários sites dentro de uma pesquisa google qualquer.
 
-#Intruções
+# Intruções
 Para buscar basta chamar o script da seguinte forma:
 	python3 frequencia.py "Sua busca google aqui" n
 Onde "n" é a quantidade de páginas google que será avaliada.
