@@ -2,16 +2,13 @@
 Verificador as palavras mais comuns entre vários sites dentro de uma pesquisa google qualquer.
 
 # Intruções
-<<<<<<< HEAD
 Modo de uso:
     python3 frequencia.py pesquisa [--help] [-p paginas] [-r resultados] [-is sites] [-iS sibolos] [-ip palavras] [-ais sites] [-aiS simbolos] [-aip palavras]
-=======
 Para buscar basta chamar o script da seguinte forma:
 
 	python3 frequencia.py "Sua busca google aqui" n
 
 Onde "n" é a quantidade de páginas google que será avaliada.
->>>>>>> b8d363791a6507b7a8797135d04fdc6b444f8193
 
     -p: Paginas de pesquisa google
     -r: Quantidade de resultados a serem exibidos
