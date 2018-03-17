@@ -3,7 +3,7 @@ import sys
 import operator
 from bs4 import BeautifulSoup
 
-import ignorados, args
+from . import ignorados, args
 
 class Minerador:
     max_paginas = 1
