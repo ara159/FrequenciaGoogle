@@ -6,7 +6,7 @@ palavras_ingles = ['in', 'the', 'to', 'for', 'if', 'more', 'less', 'of',
     'and', 'a', 'you', 'that', 'it', 'he', 'has', 'for', 'on', 'are', 'as',
     'his', 'they', 'i', 'at', 'be', 'this', 'have', 'from', 'or', 'one',
     'had', 'by', 'but', 'not', 'what', 'all', 'were', 'we', 'when', 'you', 'can',
-    'said']
+    'said', 'function']
 
 palavras_portugues = ['', 'em', 'a', 'ainda', 'anos', 'ao', 'aos', 'após', 'as',
     'até', 'caso', 'com', 'como', 'conta', 'contenham', 'da', 'das', 'de', 'disse',

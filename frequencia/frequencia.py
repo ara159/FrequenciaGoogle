@@ -48,8 +48,7 @@ class Minerador:
                     )
 
                 soup = BeautifulSoup(r.text, "html.parser")
-                conteiner = soup.findAll("h3", class_="r")
-
+                conteiner = soup.findAll("div", {"class": "r"})
                 for link_c in conteiner:
                     link = link_c.find("a")['href']
                     if not link in links and not self.ignorar_site(link):
@@ -75,6 +74,8 @@ class Minerador:
                 palavras = soup.find("body").text.split(" ")
 
                 for palavra in palavras:
+                    if len(palavra) < 3:
+                        continue
                     if not palavra in frequencia:
                         if self.sem_simbolos(palavra) and not self.ignorar(palavra):
                             frequencia[palavra] = 1
